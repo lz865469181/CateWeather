@@ -157,7 +157,7 @@ public class ChooseFragment extends Fragment {
         {
             int provinceCode = selectedProvince.getProvinceCode();
             String address = "http://guolin.tech/api/china/" + provinceCode;
-            queryFromServer(address, "City");
+            queryFromServer(address, "city");
         }
     }
 
